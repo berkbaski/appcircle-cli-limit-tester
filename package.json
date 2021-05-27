@@ -1,0 +1,34 @@
+{
+  "name": "appcircle-cli-limit-tester",
+  "version": "1.0.0",
+  "description": "Limit Tester for AppCircle CLI",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "status-check": "node status-check",
+    "clear-logs": "node clear"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/berkbaski/appcircle-cli-limit-tester.git"
+  },
+  "keywords": [
+    "javascript",
+    "appcircle",
+    "cli"
+  ],
+  "author": "Berk Baski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/berkbaski/appcircle-cli-limit-tester/issues"
+  },
+  "homepage": "https://github.com/berkbaski/appcircle-cli-limit-tester#readme",
+  "dependencies": {
+    "appcircle-cli": "^1.0.1",
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "form-data": "^4.0.0",
+    "minimist": "^1.2.5",
+    "uuid": "^8.3.2"
+  }
+}
